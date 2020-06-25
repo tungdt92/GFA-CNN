@@ -1,0 +1,9 @@
+training:
+    epoch: 5
+    batch: 256
+    checkpoint: './checkpoints/chkpt'
+net:
+  input_img_size: 224 # same input size of VGG16
+dataset:
+  #name of the dataset, (replayattack, nuaa, ...)
+  name: 'replayattack'
